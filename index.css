@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  background-image: linear-gradient(to top, #012b52, red);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  margin: 20px;
+}
+
+.poster h1, .presentation h1 {
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+.poster {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  height: 45%;
+  width: 50%;
+}
+
+.presentation {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  height: 45%;
+  width: 50%;
+}
+
+.count-block {
+  margin-top: 7vw;
+}
+
+.poster .count-block #count-poster {
+  /* color: red; */
+  color: black;
+  display: block;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.presentation .count-block #count-presentation {
+  /* color: red; */
+  color: black;
+  display: block;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+#date-format {
+  color: black;
+}
