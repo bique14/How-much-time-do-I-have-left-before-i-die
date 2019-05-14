@@ -25,21 +25,12 @@ div {
   margin: 20px;
 }
 
-.poster h1, .presentation h1 {
+.poster h1, .presentation h1, .thesis h1 {
   margin: 20px;
   font-size: 1.5rem;
 }
 
-.poster {
-  background-color: white;
-  color: black;
-  border-radius: 10px;
-  padding: 20px;
-  height: 45%;
-  width: 50%;
-}
-
-.presentation {
+.poster, .presentation, .thesis {
   background-color: white;
   color: black;
   border-radius: 10px;
@@ -52,11 +43,19 @@ div {
   margin-top: 7vw;
 }
 
+.thesis .count-block #count-thesis {
+  /* color: red; */
+  color: black;
+  display: block;
+  font-size: 4em;
+  font-weight: bold;
+}
+
 .poster .count-block #count-poster {
   /* color: red; */
   color: black;
   display: block;
-  font-size: 5em;
+  font-size: 4em;
   font-weight: bold;
 }
 
@@ -64,7 +63,7 @@ div {
   /* color: red; */
   color: black;
   display: block;
-  font-size: 5em;
+  font-size: 4em;
   font-weight: bold;
 }
 
